@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-awesome-ai-demo-application-service
+  description: "This is a python demo application using Langserve and running in Kubernetes "
+  annotations:
+    github.com/project-slug: marcmodin/my-awesome-ai-demo-application
+spec:
+  type: service
+  lifecycle: development
+  owner: "group:default/development"
+  dependsOn:
+    - 
